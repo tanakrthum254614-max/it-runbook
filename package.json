@@ -1,0 +1,12 @@
+{
+  "name": "it-runbook",
+  "private": true,
+  "type": "module",
+  "description": "IT Runbook: วิธีแก้ปัญหาที่เจอบ่อยให้ user ลองแก้เองก่อนเปิด ticket พร้อมสถิติว่าช่วยลด ticket ได้เท่าไหร่",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env dev.js"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.35.0"
+  }
+}
